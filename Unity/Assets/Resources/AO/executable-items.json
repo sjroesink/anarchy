@@ -1,0 +1,3056 @@
+{
+  "schema": 1,
+  "sourceVersion": "18.8.62",
+  "scope": "Reviewed exact-QL equipment and ordinary upload crystals; full item behavior incomplete.",
+  "items": [
+    {
+      "id": 121569,
+      "ql": 1,
+      "name": "Solar-Powered Assault Rifle",
+      "slots": [
+        6
+      ],
+      "sourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=121569",
+      "equipDelayMs": 1000,
+      "equipDelayKnown": true,
+      "noDrop": true,
+      "requirements": [],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "weapon": {
+        "minDamage": 3,
+        "maxDamage": 24,
+        "criticalBonus": 18,
+        "damageTypeStatId": 90,
+        "attackMs": 1000,
+        "rechargeMs": 1500,
+        "range": 20,
+        "initiativeStatId": 119,
+        "ammoType": "None",
+        "attackSkills": [
+          {
+            "statId": 116,
+            "amount": 100
+          }
+        ],
+        "defenceSkills": [
+          {
+            "statId": 154,
+            "amount": 100
+          }
+        ],
+        "specials": [
+          "Burst"
+        ]
+      },
+      "canFlags": 3077,
+      "additionalSourceUrl": "https://www.aoindex.com/item/121569"
+    },
+    {
+      "id": 36783,
+      "ql": 1,
+      "name": "Belt Component Platform Ti-100X",
+      "slots": [
+        7
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/36783",
+      "additionalSourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=36783",
+      "equipDelayMs": 10000,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 161,
+          "comparison": "AtLeast",
+          "amount": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 45,
+          "amount": 1
+        }
+      ],
+      "unsupportedActions": []
+    },
+    {
+      "id": 36779,
+      "ql": 1,
+      "name": "2 - 3 NCU Memory",
+      "slots": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/36779",
+      "additionalSourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=36779",
+      "equipDelayMs": 1000,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 161,
+          "comparison": "AtLeast",
+          "amount": 6
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 181,
+          "amount": 2
+        }
+      ],
+      "unsupportedActions": []
+    },
+    {
+      "id": 36778,
+      "ql": 20,
+      "name": "4 - 7 NCU Memory",
+      "slots": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/36778",
+      "additionalSourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=36778",
+      "equipDelayMs": 1000,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 161,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 181,
+          "amount": 4
+        }
+      ],
+      "unsupportedActions": []
+    },
+    {
+      "id": 36787,
+      "ql": 200,
+      "name": "Belt Component Platform 6K-X",
+      "slots": [
+        7
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/36787",
+      "additionalSourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=36787",
+      "equipDelayMs": 10000,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 161,
+          "comparison": "AtLeast",
+          "amount": 401
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 45,
+          "amount": 6
+        }
+      ],
+      "unsupportedActions": []
+    },
+    {
+      "id": 95520,
+      "ql": 200,
+      "name": "64 NCU Memory",
+      "slots": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/95520",
+      "additionalSourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=95520",
+      "equipDelayMs": 1000,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 161,
+          "comparison": "AtLeast",
+          "amount": 750
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 181,
+          "amount": 64
+        }
+      ],
+      "unsupportedActions": []
+    },
+    {
+      "id": 85697,
+      "ql": 1,
+      "name": "Battered Leather Body Armor",
+      "slots": [
+        21
+      ],
+      "sourceUrl": "https://www.aoindex.com/item/85697",
+      "equipDelayMs": 100,
+      "equipDelayKnown": true,
+      "canFlags": 5,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 20,
+          "comparison": "AtLeast",
+          "amount": 8
+        },
+        {
+          "statId": 17,
+          "comparison": "AtLeast",
+          "amount": 8
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 91,
+          "amount": 5
+        },
+        {
+          "statId": 95,
+          "amount": 5
+        },
+        {
+          "statId": 90,
+          "amount": 5
+        },
+        {
+          "statId": 92,
+          "amount": 1
+        },
+        {
+          "statId": 97,
+          "amount": 1
+        },
+        {
+          "statId": 93,
+          "amount": 1
+        },
+        {
+          "statId": 94,
+          "amount": 5
+        },
+        {
+          "statId": 96,
+          "amount": 1
+        }
+      ],
+      "appearanceActions": [
+        {
+          "functionId": 53039,
+          "textureId": 8732,
+          "layer": 1,
+          "implemented": false
+        }
+      ],
+      "unsupportedActions": [],
+      "armorOe": true
+    },
+    {
+      "id": 26461,
+      "ql": 4,
+      "name": "Nano Crystal (1H Blunt Weapon Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5c42d582a1659fb88dbe079c508344629cfe73954ad51ee153d603bcdbd3f3dc",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26339
+    },
+    {
+      "id": 26464,
+      "ql": 10,
+      "name": "Nano Crystal (1H Blunt Weapon Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "93cd5b102e7b2132b772a5b1774f0b4150b646cfd3ddb428382aa48c09396ada",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26336
+    },
+    {
+      "id": 26467,
+      "ql": 4,
+      "name": "Nano Crystal (Piercing Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "048aa6890c70861e710153e48fd68fb2b15edc830abfbee21ef7cb0ec1d8d636",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26426
+    },
+    {
+      "id": 26470,
+      "ql": 10,
+      "name": "Nano Crystal (Aimed Shot Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d78edd3c96e1b26a923e4acd4b8511ff0ad5dc583e9c3af7aecb89b1010244ea",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26343
+    },
+    {
+      "id": 26473,
+      "ql": 4,
+      "name": "Nano Crystal (Aimed Shot Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "41ecb437a0935b91dc9f06b8739c380bf721f9d95d16d42aa2bd8680f3720874",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26346
+    },
+    {
+      "id": 26478,
+      "ql": 10,
+      "name": "Nano Crystal (Assault Rifle Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6fd9519e185f3a19ebd640f9d1899066fd4fc73b9c6c20282bc77f58b214ddae",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26370
+    },
+    {
+      "id": 26481,
+      "ql": 4,
+      "name": "Nano Crystal (Assault Rifle Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "b7989fa18c510a8594bbdebf139350280342b50d39512784674a8d899127ddc8",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26354
+    },
+    {
+      "id": 26488,
+      "ql": 10,
+      "name": "Nano Crystal (BioMet Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "46b1a3e330b8425e517de928fe28a19ae216aef197b877638b90442c025c73bf",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26361
+    },
+    {
+      "id": 26494,
+      "ql": 10,
+      "name": "Nano Crystal (Bow Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "92e5c6acaff4b173d9ef585f2c7965ab98163aa58a99a086ba248c012d83a033",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26367
+    },
+    {
+      "id": 26497,
+      "ql": 4,
+      "name": "Nano Crystal (Bow Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "34de3bf7f127a213a9bcab3cf7095ce8beb241f7061398e8c26a6e481fda3ef9",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26351
+    },
+    {
+      "id": 26498,
+      "ql": 10,
+      "name": "Nano Crystal (Bow Special Attack Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bcee1f7b04829c6ae7a66df0f057bd1d91b57a07c150f1d9856c81fe4e20bbc4",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26394
+    },
+    {
+      "id": 26501,
+      "ql": 4,
+      "name": "Nano Crystal (Bow Special Attack Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d03d0192edc35b0d8af97fab390dcaa813dd6bdad83675fac71295b546453091",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26374
+    },
+    {
+      "id": 26502,
+      "ql": 10,
+      "name": "Nano Crystal (Brawl Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5cc66bbcca10b4a917d784f2385eaa28a34b851174ac35cfffd428f24f5e74fd",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26375
+    },
+    {
+      "id": 26505,
+      "ql": 4,
+      "name": "Nano Crystal (Brawl Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "c0ef006cadaa4e6e16db60899bcf76c723722ff287a0f1e3893da9834ee5b559",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26378
+    },
+    {
+      "id": 26506,
+      "ql": 10,
+      "name": "Nano Crystal (Breaking and Entering Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "646dcc8349e3937a75c11550413b9b775a2880e81ee8976bd3cea04ae9bab801",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26379
+    },
+    {
+      "id": 26507,
+      "ql": 4,
+      "name": "Nano Crystal (Breaking and Entering Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3077e60e18b7d454d4f26025deb1198ce12457dc192af6f6c4091152e7855ba3",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26380
+    },
+    {
+      "id": 26508,
+      "ql": 10,
+      "name": "Nano Crystal (Burst Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a655358d0457789109dd5f0424e0dbff80ee257ca9b66f3e48eecd4ff9424e4f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26381
+    },
+    {
+      "id": 26511,
+      "ql": 4,
+      "name": "Nano Crystal (Burst Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e36c9be7efbab85361748a2c37c404036662d047f6c3d310f11810093eb4a0e4",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26384
+    },
+    {
+      "id": 26514,
+      "ql": 10,
+      "name": "Nano Crystal (Chemistry Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2ac1ec0b87ee96e634f679c7ed96cfb80f05e85b3c3c4db83a657f8bc3b161b4",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26387
+    },
+    {
+      "id": 26515,
+      "ql": 4,
+      "name": "Nano Crystal (Chemistry Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ecb183059e61277da3879d37a391988d8e8add0a58ef5faeb74a6487bd3fb958",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26388
+    },
+    {
+      "id": 26516,
+      "ql": 10,
+      "name": "Nano Crystal (Adventuring Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "83f199fc830a2be3306705bd6b900fb249f480fc66ff8373b350f93ea9a0d2cb",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26389
+    },
+    {
+      "id": 26522,
+      "ql": 10,
+      "name": "Nano Crystal (Computer Literacy Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "1239a40a9989a241abe1c7409d6e06049229947cabc0eae8955ee52ab7c76425",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26425
+    },
+    {
+      "id": 26523,
+      "ql": 4,
+      "name": "Nano Crystal (Computer Literacy Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0dba67c04c8a89e2407db984d427cbda838dc2a7fc1d0a4175c77cf9ef90c546",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26396
+    },
+    {
+      "id": 26524,
+      "ql": 10,
+      "name": "Nano Crystal (Concealment Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "9e63314bf131c90cbf525eec51a3aa7ec5e53b8c5c6cc9b9d5bc4ededbb7589e",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26397
+    },
+    {
+      "id": 26525,
+      "ql": 4,
+      "name": "Nano Crystal (Concealment Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "df62428893987754091e63f92bec583b1ef37ae81fa43bd72cdf2f4b998b3b41",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26398
+    },
+    {
+      "id": 26534,
+      "ql": 10,
+      "name": "Nano Crystal (Disarm Traps Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "7f2b4b37631ccdbb38f52a0f9e55a5aa9008c6b4ef52e653764497200b0de36e",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26407
+    },
+    {
+      "id": 26535,
+      "ql": 4,
+      "name": "Nano Crystal (Disarm Traps Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3955540db2917f0b71226f668a3a7aa573530e4d639134cc73fc98757b5b9c70",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26408
+    },
+    {
+      "id": 26547,
+      "ql": 10,
+      "name": "Nano Crystal (Electrical Engineering Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "b4dbee2e147b6c09da79adbcafe6d3aa38efeb90f46c8bda64fd247a855b9ffb",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26420
+    },
+    {
+      "id": 26549,
+      "ql": 10,
+      "name": "Nano Crystal (Energy Melee Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "920f01bc7a1348d3fa0d90dc830922979e1e45375209a925b535b678d690b09f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26422
+    },
+    {
+      "id": 26552,
+      "ql": 4,
+      "name": "Nano Crystal (Energy Melee Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "4ad8d3979167b740a5e481a5bd29b73350509bb42e2cc2b2cac244b4f7a8e8a4",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26395
+    },
+    {
+      "id": 26555,
+      "ql": 10,
+      "name": "Nano Crystal (LR Energy Weapon Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8cf70a686bf3a51de84e83d634b8c4e3cb4e17f52b1b51755fc12acea00653bd",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26428
+    },
+    {
+      "id": 26558,
+      "ql": 4,
+      "name": "Nano Crystal (LR Energy Weapon Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "99aec330c86618f2cde3a0e3428c9d5f315076b30afab6012201252994792399",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26431
+    },
+    {
+      "id": 26559,
+      "ql": 10,
+      "name": "Nano Crystal (Fast Attack Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bc2977c782db7da3dc20f6667d49bf2ccab25471bca12a1c30f656d6c33b1825",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26432
+    },
+    {
+      "id": 26562,
+      "ql": 4,
+      "name": "Nano Crystal (Fast Attack Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2b907dcfefad9ef1cf1a8e7739c71856bfaa731707e4bb5c6bc4c5827872c25c",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26435
+    },
+    {
+      "id": 26564,
+      "ql": 10,
+      "name": "Nano Crystal (Field Quantum Physics Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "4c3a26144b67fa162ec5948094552822c6f20127771664c4d90386f472fa0fdf",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26437
+    },
+    {
+      "id": 26565,
+      "ql": 4,
+      "name": "Nano Crystal (Field Quantum Physics Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "136887b5b3a24dfc37196b42426ff9eaa938f5836814638a0082be4db2b56050",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26438
+    },
+    {
+      "id": 26568,
+      "ql": 10,
+      "name": "Nano Crystal (First Aid Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3dd82ffe0bbfbc08553a7f43193c696c953a4c255ce633a69820c1d09c05f384",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 128,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26441
+    },
+    {
+      "id": 26569,
+      "ql": 4,
+      "name": "Nano Crystal (First Aid Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "24d5192624c8c2db920dafca7056eedcc2dfb4c0f5c84aea04251bc6b1021829",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 128,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26442
+    },
+    {
+      "id": 26570,
+      "ql": 10,
+      "name": "Nano Crystal (Fling Shot Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e908290294d9c593ea53bfe71362f55267ec38560912ddecd653c2d628b2e628",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26443
+    },
+    {
+      "id": 26573,
+      "ql": 4,
+      "name": "Nano Crystal (Fling Shot Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "7aadf0dd29dbd4b3f1af40a0698f7aa3bf4a8aab927d2424821c9b72593c84fe",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26446
+    },
+    {
+      "id": 26574,
+      "ql": 10,
+      "name": "Nano Crystal (Full Auto Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6aa88c4af76ba09a4258b7a777fbda78634addea0587bd06f64c35068d47c1d7",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26447
+    },
+    {
+      "id": 26577,
+      "ql": 4,
+      "name": "Nano Crystal (Full Auto Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "9562d406eb803a34fa37e1ee1d5332cb3878b65860c1b90a1deaef8e0814b8ab",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26450
+    },
+    {
+      "id": 26578,
+      "ql": 10,
+      "name": "Nano Crystal (Heavy Weapons Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2bceb523b7302c25c8e73f90982f390c390ed8359459cf5644bc6ff4d1040534",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26451
+    },
+    {
+      "id": 26581,
+      "ql": 4,
+      "name": "Nano Crystal (Heavy Weapons Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f21029e4c48a7fd36a41aaf0d7fc28ce769a184170ff6cd54ceaaec8699d479e",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26454
+    },
+    {
+      "id": 26682,
+      "ql": 4,
+      "name": "Nano Crystal (Adventuring Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "60cfa77c9088cea1cecf860f83453ef8cc1f9f0a00615842c16e24570d236e31",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 26390
+    },
+    {
+      "id": 27197,
+      "ql": 4,
+      "name": "Nano Crystal (Weapon Smithing Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ec9cc77b0f58e9b02a624089c7f3fc085c72a836807490b941224d7bc3d5a386",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27191
+    },
+    {
+      "id": 27198,
+      "ql": 10,
+      "name": "Nano Crystal (1H Edged Weapon Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0bfea09b78e412ae48d5c84a2907040ffd42280c03ba1c229b55135bc98a5d53",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27068
+    },
+    {
+      "id": 27201,
+      "ql": 4,
+      "name": "Nano Crystal (1H Edged Weapon Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8c9dcd0053be5fe31f75fdf990e7ef20cf1b5413386252d2775d6a3d89322f84",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27071
+    },
+    {
+      "id": 27202,
+      "ql": 10,
+      "name": "Nano Crystal (2H Blunt Weapon Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ebdd1edea65d512c5c2513812d17a90e171f78a50ad962604ad017f445b7dfea",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27072
+    },
+    {
+      "id": 27205,
+      "ql": 4,
+      "name": "Nano Crystal (2H Blunt Weapon Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8bf84ec2c6f93438e500c171a8927cb6e07c5ea26bc71dda4c469bb1f9e43b2e",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27075
+    },
+    {
+      "id": 27206,
+      "ql": 10,
+      "name": "Nano Crystal (2H Edged Weapon Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "4b178fb23a02cc66d86ae05fefe0436c0f9ec4592cf1e48e60bcc41f1746adb8",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27076
+    },
+    {
+      "id": 27209,
+      "ql": 4,
+      "name": "Nano Crystal (2H Edged Weapon Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "993b1b2105e3e2e26fd1743d696042dbbc71808c15d732c1e1ba818ea4e6ade8",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27079
+    },
+    {
+      "id": 27210,
+      "ql": 10,
+      "name": "Nano Crystal (Grenade Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3ab96db27df716a35d6ba21890dbe191c0cc628fd50782683cbad6e89bf6c274",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27081
+    },
+    {
+      "id": 27213,
+      "ql": 4,
+      "name": "Nano Crystal (Grenade Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "28a35ead55c23822ba3c54bb54f59a23f9daef1b8967a8cd0aa0953350ef2e39",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27082
+    },
+    {
+      "id": 27218,
+      "ql": 10,
+      "name": "Nano Crystal (Throwing Knife Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a695c7c5e36998e0e81db7e2a461183d7773f53dbb3b8fadc898f4ee16ce8666",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27087
+    },
+    {
+      "id": 27221,
+      "ql": 4,
+      "name": "Nano Crystal (Throwing Knife Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "84979dd8b291436143de8b5f591cec1d2588b5f21acb2d357f26cc0016bbad9f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27088
+    },
+    {
+      "id": 27225,
+      "ql": 10,
+      "name": "Nano Crystal (Submachine Gun Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "beec5ed71d55d815f40cefede0577209fbce754f6c70961de78ab1eb4ea63a9c",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27090
+    },
+    {
+      "id": 27228,
+      "ql": 4,
+      "name": "Nano Crystal (Submachine Gun Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3736fdc5e4ea4369252198e54557050598339158699bae1007bcc73b287b6fd5",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27093
+    },
+    {
+      "id": 27229,
+      "ql": 10,
+      "name": "Nano Crystal (Martial Arts Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e848574c6eac5fb6502436335e06f820b2f7c7fd224f11c690068fe3ccdbc39f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27094
+    },
+    {
+      "id": 27232,
+      "ql": 4,
+      "name": "Nano Crystal (Martial Arts Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "28d58af59492a86609ebad4aaf6e2819043d8406959317dc708679a2e03f16db",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27097
+    },
+    {
+      "id": 27233,
+      "ql": 10,
+      "name": "Nano Crystal (MatCrea Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2c79f0af06bd60455523ba95ff07a438d552ce7e6274c8dc6bb5d308e0fab019",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27098
+    },
+    {
+      "id": 27236,
+      "ql": 4,
+      "name": "Nano Crystal (MatCrea Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "1f06196d480d0b3ea5a53b7665a13ce24bbb4592d2a5c8699a32eeca6267694a",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27101
+    },
+    {
+      "id": 27237,
+      "ql": 10,
+      "name": "Nano Crystal (SpaceTime Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "47aed09189ef3fceeb32d4b737be2de39e25a9a79f95d3be5951e67c22fc0a11",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27102
+    },
+    {
+      "id": 27240,
+      "ql": 4,
+      "name": "Nano Crystal (SpaceTime Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "becd8fecba8997459b4b42eb60ed267f61d49cfd30eff6226b588939511aeb5b",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27105
+    },
+    {
+      "id": 27241,
+      "ql": 10,
+      "name": "Nano Crystal (MatMet Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f5140d71940e90333ab83ae60c225b93ad3e782751c4c7c6c6334a4f41d2fdf8",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27106
+    },
+    {
+      "id": 27244,
+      "ql": 4,
+      "name": "Nano Crystal (MatMet Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d08a1e7ab2f72e272606f9d3732b24441ff74d83cdf7e8be546be684fbb9fd86",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27109
+    },
+    {
+      "id": 27245,
+      "ql": 10,
+      "name": "Nano Crystal (Mechanical Engineering Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "186102894d512e1bc92442806f95cd25205decbf6073b221c4fef2e6c80c461d",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27110
+    },
+    {
+      "id": 27246,
+      "ql": 4,
+      "name": "Nano Crystal (Mechanical Engineering Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "387dedc04d8bfd4bf37efdb57720a4aaeb6f6b83cf5ba693530377e6ca83e20b",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27111
+    },
+    {
+      "id": 27250,
+      "ql": 10,
+      "name": "Nano Crystal (Nano Programming Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "769a42e62d3a27c2a199fec36fd5bfd92b78e9bbca22077b28e204799991306b",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27115
+    },
+    {
+      "id": 27251,
+      "ql": 4,
+      "name": "Nano Crystal (Nano Programming Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d7cb38caf92eb2a2d056571d7e832f364a75c9f23156784bca226bac0d28b61c",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27116
+    },
+    {
+      "id": 27259,
+      "ql": 4,
+      "name": "Nano Crystal (Parry Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "9c0ae8cdda0820f88794f4be32044930f1d5764d35ef7d02a9f0c2e741c72c91",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27124
+    },
+    {
+      "id": 27260,
+      "ql": 10,
+      "name": "Nano Crystal (Pharmaceutical Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "873f973830ddc09ad154921ebf98c96f48815d414b2dfd526d3b8b882b0bb1f8",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27125
+    },
+    {
+      "id": 27261,
+      "ql": 4,
+      "name": "Nano Crystal (Pharmaceutical Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5413ca0edfdc1315205015f9c9381a46c697c086c67a1bf589bdbd8b74f896b6",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27126
+    },
+    {
+      "id": 27262,
+      "ql": 10,
+      "name": "Nano Crystal (Pistol Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "49d4bc6416cde848a907ca49a34ef22f6bc67b49bb857d7b198dd370b423c72c",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27127
+    },
+    {
+      "id": 27265,
+      "ql": 4,
+      "name": "Nano Crystal (Pistol Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2f4508e4c9b6a5c90bb25ce40ba8bb30fab19422310f03e24c353afbd6e2987b",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27080
+    },
+    {
+      "id": 27271,
+      "ql": 10,
+      "name": "Nano Crystal (Psychology Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e98ab370fe2e419a3ba3e9736ddffc226c51bca47e92bfaffaa344a0ae62a01e",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27135
+    },
+    {
+      "id": 27272,
+      "ql": 4,
+      "name": "Nano Crystal (Psychology Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ba7461b8b2eefd2e3d42d1bce40fb47740f7352a7c2a4632d00363374b7a9ae6",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27136
+    },
+    {
+      "id": 27273,
+      "ql": 10,
+      "name": "Nano Crystal (PsyMod Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "4c4ff5659c76d7f151b66e68dd83581b39de9cea1fef7108d28a6f080fafb86a",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27137
+    },
+    {
+      "id": 27276,
+      "ql": 4,
+      "name": "Nano Crystal (PsyMod Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "030d1d9823d170eba9c6241a9ab1d4ffe98eb05a04d953a9b222931140bfa5cb",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27140
+    },
+    {
+      "id": 27282,
+      "ql": 10,
+      "name": "Nano Crystal (Rifle Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "df78274deda94637e48ec62f6fdf8042c1fcbfe0550a8ee58882a96240cbef90",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27146
+    },
+    {
+      "id": 27285,
+      "ql": 4,
+      "name": "Nano Crystal (Rifle Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "4bd62683202d13b117fee3b09a82d7e6152183acf121276ef5f1464770f3e3b1",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27149
+    },
+    {
+      "id": 27286,
+      "ql": 10,
+      "name": "Nano Crystal (Riposte Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "46e8a38c92aea82e0a31321cf77fd4eaa4a595adf17932823c40f78850779b3a",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27150
+    },
+    {
+      "id": 27289,
+      "ql": 4,
+      "name": "Nano Crystal (Riposte Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "9fd6b0c5517732a1c2dde800d6b2b9196af4e5caf34431d2c5824470c99e1fb0",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27153
+    },
+    {
+      "id": 27291,
+      "ql": 10,
+      "name": "Nano Crystal (Sense Imp Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "67fc2b810e965fe8369602d149f2f59359b364a174f5c2cf3a59bc45070ee1cf",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27155
+    },
+    {
+      "id": 27294,
+      "ql": 4,
+      "name": "Nano Crystal (Sense Imp Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ff3f70aef3114b11437fceebdfd84602da1a204167a4e8ee25e02fe0db125138",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27158
+    },
+    {
+      "id": 27295,
+      "ql": 10,
+      "name": "Nano Crystal (Shotgun Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a8767965df53ab8ffa8f03fd2aec8e8ce262191524fb0d659dbdbb088062890b",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27159
+    },
+    {
+      "id": 27298,
+      "ql": 4,
+      "name": "Nano Crystal (Shotgun Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "da05e3a3a3f3790a80b2d992e42035bbc9d85bb89008aebb520dc177cc13fc4f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27162
+    },
+    {
+      "id": 27300,
+      "ql": 10,
+      "name": "Nano Crystal (Sneak Attack Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "04b895127e3bb8cdb8a58f04501eb4f2f14f0da2d5c2e60df3868a24f70385c1",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27164
+    },
+    {
+      "id": 27303,
+      "ql": 4,
+      "name": "Nano Crystal (Sneak Attack Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "26595eb371509282f9e8d091886079463604eefac8c5539866a007dbe16118ae",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27167
+    },
+    {
+      "id": 27311,
+      "ql": 10,
+      "name": "Nano Crystal (Treatment Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "64dfb538647a27e12ef122a40422ec35841c28599b2cfa0f79110132759f51bd",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 128,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27175
+    },
+    {
+      "id": 27312,
+      "ql": 4,
+      "name": "Nano Crystal (Treatment Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5074f472e79c1c06ad29c01cbd8b9847b73ea6c56788a5b547782b66253c324c",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 128,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27176
+    },
+    {
+      "id": 27313,
+      "ql": 10,
+      "name": "Nano Crystal (Tutoring Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0c72bd308947a61abfe3b56822f60004c7dd9e508aadbfca37d6c5f087870b12",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27177
+    },
+    {
+      "id": 27314,
+      "ql": 4,
+      "name": "Nano Crystal (Tutoring Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "51bcb09d2a3f34d882a54941d4bda2536b7b013f26e17b09e71f3d58fdb927c0",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27178
+    },
+    {
+      "id": 27326,
+      "ql": 10,
+      "name": "Nano Crystal (Weapon Smithing Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a871dc18a8cd3c3f0fa43704d7fd410ac4e0a1efddf1f69e57865e9774ffc637",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 61
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27190
+    },
+    {
+      "id": 27708,
+      "ql": 4,
+      "name": "Nano Crystal (Electrical Engineering Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8d46349989bd3671551cf4f28365ecc6b5bb18161885987e11a42b90a68a8f23",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 31
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 27707
+    },
+    {
+      "id": 70411,
+      "ql": 10,
+      "name": "Nano Crystal (Total Mirror Shield Mk I)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "273818916e43dc754966925f6cafa337fcae1367839f4bf94127682f8411b47a",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 131,
+          "comparison": "AtLeast",
+          "amount": 46
+        },
+        {
+          "statId": 130,
+          "comparison": "AtLeast",
+          "amount": 58
+        },
+        {
+          "statId": 368,
+          "comparison": "Equal",
+          "amount": 1
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 70308
+    },
+    {
+      "id": 259605,
+      "ql": 10,
+      "name": "Nano Crystal (Dimach Expertise)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a23cf55003fdd83ada22814c0c17dea196a363ea487f6e104a6b8ef317111dfc",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 66
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 259604
+    },
+    {
+      "id": 259608,
+      "ql": 4,
+      "name": "Nano Crystal (Dimach Proficiency)",
+      "slots": [],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d2f4a1e00c121fe1e82f473c94a2f5d496cc5a9a60419e3124d71fa7ae3dce4f",
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "requirements": [
+        {
+          "statId": 129,
+          "comparison": "AtLeast",
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "comparison": "AtLeast",
+          "amount": 35
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": [],
+      "uploadNanoId": 259606
+    },
+    {
+      "id": 29092,
+      "ql": 1,
+      "name": "Soldier: Startup Crystal - Body Boost",
+      "slots": [],
+      "uploadNanoId": 29091,
+      "equipDelayKnown": false,
+      "equipDelayMs": 0,
+      "canFlags": 41,
+      "noDrop": false,
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e8196023313290c6905fee8de53bd01b04de28426168d01f7d412620ce705a8a",
+      "requirements": [
+        {
+          "statId": 128,
+          "comparison": "AtLeast",
+          "amount": 5
+        },
+        {
+          "statId": 130,
+          "comparison": "AtLeast",
+          "amount": 5
+        },
+        {
+          "statId": 368,
+          "comparison": "Equal",
+          "amount": 1
+        }
+      ],
+      "modifiers": [],
+      "unsupportedActions": []
+    }
+  ]
+}

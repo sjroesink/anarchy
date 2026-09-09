@@ -1,0 +1,4198 @@
+{
+  "schema": 1,
+  "sourceVersion": "18.8.62",
+  "scope": "Reviewed single-skill and seven composite skill buffs, Body Boost; partial TMS. Full nano execution incomplete.",
+  "effects": [
+    {
+      "id": 26370,
+      "name": "Assault Rifle Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 27,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 116,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5c5820243041da66f44fc61dda257ab166f9992368f51e2d89e92f8d73a24c40",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 70308,
+      "name": "Total Mirror Shield Mk I",
+      "ncu": 4,
+      "duration": 20,
+      "sourceUrl": "https://www.aogalaxy.com/_items/item.php?aoid=70308",
+      "modifiers": [
+        {
+          "statId": 205,
+          "amount": 75
+        },
+        {
+          "statId": 206,
+          "amount": 75
+        },
+        {
+          "statId": 207,
+          "amount": 75
+        },
+        {
+          "statId": 208,
+          "amount": 75
+        },
+        {
+          "statId": 216,
+          "amount": 75
+        },
+        {
+          "statId": 217,
+          "amount": 75
+        },
+        {
+          "statId": 219,
+          "amount": 75
+        },
+        {
+          "statId": 225,
+          "amount": 75
+        },
+        {
+          "statId": 475,
+          "amount": 7
+        },
+        {
+          "statId": 476,
+          "amount": 7
+        },
+        {
+          "statId": 477,
+          "amount": 7
+        },
+        {
+          "statId": 478,
+          "amount": 7
+        },
+        {
+          "statId": 479,
+          "amount": 7
+        },
+        {
+          "statId": 480,
+          "amount": 7
+        },
+        {
+          "statId": 482,
+          "amount": 7
+        },
+        {
+          "statId": 483,
+          "amount": 7
+        }
+      ],
+      "unimplemented": [
+        "Heal Reactivity +10",
+        "Root and Snare resistance 10 percent",
+        "Nanoline replacement across different programs",
+        "Version-specific lockout semantics"
+      ],
+      "nanoCost": 126,
+      "castMs": 250,
+      "rechargeMs": 500,
+      "requiredProfession": 1,
+      "castRequirements": [
+        {
+          "statId": 130,
+          "amount": 59
+        },
+        {
+          "statId": 131,
+          "amount": 47
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "aecc50ad10e837b27cdc63df23e82a115efba3cbebb4718563cb582060981403",
+      "nanoLine": 2,
+      "stackingOrder": 300
+    },
+    {
+      "id": 26354,
+      "name": "Assault Rifle Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 27,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 116,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5de7a77564c2fda657be013dc90d83da837f8c22a267f3a6674f142be06d5519",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26336,
+      "name": "1H Blunt Weapon Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 16,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 102,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "fe4ae20374615e02a01c68f22df11df056a0913c9c1ed6b6690c35bce3d9cba2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26339,
+      "name": "1H Blunt Weapon Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 16,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 102,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "162a2032c0c856ee4897a1adba44710ef583ef44a6f4d2fc3319455ba2674ced",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26343,
+      "name": "Aimed Shot Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 18,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 151,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "13da2baacc5b5ae804c12197ef15aa5f0e31cf7842c536fb28537fcba5e8f0ee",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26346,
+      "name": "Aimed Shot Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 18,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 151,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "644dbbc7a1358522b97235c813cc0c32060cdc096a7b3cb61c28b0f3783a39a8",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26351,
+      "name": "Bow Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 37,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 111,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "db9777dcae9855b53f2bf159f82c219517a88b5150ca1f772b330af8343c60e1",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26361,
+      "name": "BioMet Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 35,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 128,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ebe6eb787e08fb1ce2e363dc6ea361bc6b0dfe368893b595f9e1128096847929",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26367,
+      "name": "Bow Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 37,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 111,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "9e8987e8ce60d08482bfc6e5d63bc8f70efe4de9045011b997ca3db01ca3a9e0",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26374,
+      "name": "Bow Special Attack Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 39,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 121,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "eff6a78b11dcf3b798508e8a4c68832ffb1493d548c121db4f70a9bdb7e6800c",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26375,
+      "name": "Brawl Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 41,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 142,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5cecb461e98695f25f6fd2a7dc1bd22224419286d32cd78850ea6290e16d3583",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26378,
+      "name": "Brawl Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 41,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 142,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ff404fb5ffd6841c9817dea6cf93eddf661a0b49845673bed03e848bde328596",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26379,
+      "name": "Breaking and Entering Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 43,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 165,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "28aa02d98069419a5450045e7e8df2448df1bc41d5eb85f7b409770aeb4c4c1d",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26380,
+      "name": "Breaking and Entering Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 43,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 165,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a6a7a7e56ddd8743cb13aa6fe98fa44ab13e2710a5e1c3db9e0ee2cbcc5e8f8e",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26381,
+      "name": "Burst Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 44,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 148,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a6a1e40472ec5de4e5d436847d4159a51cf505a0475d3a234f57d2bc88f39cde",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26384,
+      "name": "Burst Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 44,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 148,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "5490e5762aa8a137af7407c7ce136bd78dcdbef0cdb5746a355aef84ecbd7cfe",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26387,
+      "name": "Chemistry Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 47,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 163,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f0e026de49e60d0f32c659cd67abf54f840007d67658ac919c8a277df8be359e",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26388,
+      "name": "Chemistry Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 47,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 163,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "febe7f5f2a6c7392786726f28dfd30adcf2f431ff9d7ae04627ad6662f497799",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26389,
+      "name": "Adventuring Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 48,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 137,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "46f1f69b0309ebd97ba4b5a3a61a40a19a08be832df40ae7d0ea41ae852b1524",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26390,
+      "name": "Adventuring Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 48,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 137,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6430505d2b312efe54ce1d294fb15ee61f365d4cb25cc2b0a71639df45c25235",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26394,
+      "name": "Bow Special Attack Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 39,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 121,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "99f1803cbbce5df13bc8bbf53385d37b59436615f56e3d221e9452a101f46a81",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26395,
+      "name": "Energy Melee Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 61,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 104,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "633590f827c53fe316da32e608014eb0cc47c9cd3ac57d49b5b8d3172be20df7",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26396,
+      "name": "Computer Literacy Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 50,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 161,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "c04814fa2e8b9aecd697351b507ab00a4e55c163ffaacbf74c4e8fc34a50ba5d",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26397,
+      "name": "Concealment Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 51,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 164,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "30ef759544e357a9e6079568baee72eb0c21339ec9c48de2abe03567b3800cba",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26398,
+      "name": "Concealment Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 51,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 164,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bc0a2228c25e098738d661f3ef20871030df29d078ef0307dd9a5bce1941ef44",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26407,
+      "name": "Disarm Traps Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 59,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 135,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3038c4bd2ce27c47557ec6b2e1cae48c3898269393a3fb6a4c8c32b07f412806",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26408,
+      "name": "Disarm Traps Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 59,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 135,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "692b1add06108d411c16de79acfc715b76be9441d6de2d85ffe0978dd691b3ca",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26420,
+      "name": "Electrical Engineering Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 60,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 126,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "b82dee8c36b67032982143f80923e2ae35051521d39572c906fcc8cc0b08ad7a",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26422,
+      "name": "Energy Melee Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 61,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 104,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "85ab6db208fbb282e0584d3d299dd2930ba92c35215e6faae0b54621f92faf62",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26425,
+      "name": "Computer Literacy Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 50,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 161,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6b50134bc66af5b4f5173d0729544aa208cca6a48561d05077b638a97bd020da",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26426,
+      "name": "Piercing Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 101,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 106,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "cca8918d57f199a8ce64162274fb1d7fa2e8bbb7ba86260681d6f90795da7de6",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26428,
+      "name": "LR Energy Weapon Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 64,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 133,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "406c97c99b883459272b7d911ab5b2f63ffa7ed6ee23901c38bea9451cd6a0ce",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26431,
+      "name": "LR Energy Weapon Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 64,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 133,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f1cf31018b64d4956122a983890cdbe2aa00129f5e2947637dd59f8d67b9fb00",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26432,
+      "name": "Fast Attack Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 66,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 147,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bc7716225bd9db0b7d6f774673f232a7968eaf0034efb4ad80b664495b62f626",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26435,
+      "name": "Fast Attack Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 66,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 147,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d8be755c815b28e05a0f06657f0b260590b99244a5cc9b31888bdc817dd0d42e",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26437,
+      "name": "Field Quantum Physics Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 68,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 157,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "cf0f92d7a69af0de72785d46bc2dd7924de20a36e5b65b9ebc82c7c3c12040a7",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26438,
+      "name": "Field Quantum Physics Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 68,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 157,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f346922d9fc9093222d52214fc505fbc69aab41e6d02bdbe69ea29bc19739ec0",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26443,
+      "name": "Fling Shot Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 71,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 150,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0669c55c4311989033a3cc0597a5570c366bdd5fa647adc310f4afa4b8ebe1e2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26446,
+      "name": "Fling Shot Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 71,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 150,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "b14d67d8de3efd5960821334aa2fcb7002371a1f40a669e34b88da7faf2655c7",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26447,
+      "name": "Full Auto Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 73,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 167,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "25cb867b2dba43db6559b4b291b3cfd22e03e2bac3b1acaa70293f6a4a0dadc2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26450,
+      "name": "Full Auto Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 73,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 167,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ff243ae28f628d326644b5a9c34e36840496eb35ba1abee42e1fbf66a7af11e0",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26451,
+      "name": "Heavy Weapons Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 75,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 110,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f9e839d4e01022b674a7d3fc68536ef7f967589188122bdfb7ff5e1476d2ff97",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26454,
+      "name": "Heavy Weapons Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2200,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 75,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 110,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "1b8cc81c83ae0c98ec9858d9aea8c27b542ebfa5de845935a44fd3825de2fa58",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27068,
+      "name": "1H Edged Weapon Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 21,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 103,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "1e18f743ec443615a0c23e5556454db202e7b0cb56b7a46af87dca591aa6c533",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27071,
+      "name": "1H Edged Weapon Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 21,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 103,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6e3407aeae623ad045b95712491e244579e2bbb48cea2b14d276e35df99f224d",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27072,
+      "name": "2H Blunt Weapon Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 23,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 107,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "3b7affa293d29eb1cacff51ff35639ec817db0e4adc1dade67a17bbd591b4449",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27075,
+      "name": "2H Blunt Weapon Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 23,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 107,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bdb0ec0c0ce88b03014f6730e17a2f7e3152a7ef397b1851161a0763ff699056",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27076,
+      "name": "2H Edged Weapon Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 25,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 105,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0c88cbdbb3b64eddf67602b539d7c4425ffd0f8c80213babc32199ec1f56b46a",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27079,
+      "name": "2H Edged Weapon Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 25,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 105,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "99e034d2b720fbd36fc4f7584c434ea958ec4add98d77739e93c497d34bbe799",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27080,
+      "name": "Pistol Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 103,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 112,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "397021455373d33d3a5cc330ffee06567f2e4678394bdf26ccdca0094e11c2ef",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27081,
+      "name": "Grenade Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 77,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 109,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2f9b9d77e22533dc48d2ce259cdecbe185fdd8a4ce4b820b51ccc85304e83247",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27082,
+      "name": "Grenade Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 77,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 109,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "23112ef6c33485e3914b01d7d38fe056ff5b0ddb2fa6e86799f00d7a9486fba4",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27087,
+      "name": "Throwing Knife Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 81,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 108,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "408cf2b15bdf47310e38d0891bb59ae9b33816e59fb2043b31274a3bf6b29321",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27088,
+      "name": "Throwing Knife Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 81,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 108,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "214587bdd3efe354f00315b4c375f509828178baa9faa4764079dca16476e0fd",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27090,
+      "name": "Submachine Gun Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 83,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 114,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "7b8e84386c9c89644d65fd57b89e7c527301f96ea61ee2b8dda8b47a42bed055",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27093,
+      "name": "Submachine Gun Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 83,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 114,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bd8550eda427c04ca216c463614280a8cfad16cce8769cf4dfe9b31219bc1482",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27094,
+      "name": "Martial Arts Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 85,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 100,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e8a2057863ee49320989adce0a08a147c8cf90fbf3799af9714fc46e57688edd",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27097,
+      "name": "Martial Arts Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 85,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 100,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "6c0363db59fd8cbcb11d61802f079c8945c4b39a384494955ed7733fe8215697",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27098,
+      "name": "MatCrea Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 87,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 130,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "41d0a07787ec960466e9bf4d1f8927ed33ab6a5c1d7504ef4fb5ea872bc02d03",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27101,
+      "name": "MatCrea Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 87,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 130,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "181464a108222fcae26444b6f020d44cb570b77399564509fc24b725b6bbb205",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27102,
+      "name": "SpaceTime Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 89,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 131,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2fe601e30a4dca0e7b89cccd3a067902175a956ed9f4f56f76fbc546dc9269f7",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27105,
+      "name": "SpaceTime Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 89,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 131,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bb4b2923f7a9f139995f4cf847775dc3dbadb297b126cf54fc6336875bef2a29",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27106,
+      "name": "MatMet Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 91,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 127,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "bbbe464ba5615e29053b84c5e5f37138b103f17bea46f26906d9058fbdb98050",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27109,
+      "name": "MatMet Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 91,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 127,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8e4729467a18ae923190f9bb960a1ed136356db8f8c4cf308b1903e1dfbee3e5",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27110,
+      "name": "Mechanical Engineering Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 93,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 125,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f908babd1cf02a7a7b0b2eea647ce06d2a94b0c7d509c33d4790fd111ac62438",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27111,
+      "name": "Mechanical Engineering Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 93,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 125,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "11b1970fb1598ef9d4f05fd24582107ff3f8d4ea44be5affeabcd65f03f05b67",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27115,
+      "name": "Nano Programming Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 95,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 160,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "dfd48e86bc70a5040abb6899b25aedd2c35d527d472599bf9143ccb862e924fb",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27116,
+      "name": "Nano Programming Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 95,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 160,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8b56766be8a39879ec5d88d6448257168ba28d17fc9c2755f753720e0e787ca2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27124,
+      "name": "Deflect Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 98,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 145,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "1f30d6038f5bf81418b3c84cc5a33130289c821551955b140f809584c6892824",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27125,
+      "name": "Pharmaceutical Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 100,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 159,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "b1886ca2572b5830e2158c50468e5272b4d25b9894c6e8c6e2c6963a82f4b276",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27126,
+      "name": "Pharmaceutical Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 100,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 159,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0c795fbf7c836da69fe264dae98e8b873230ea58e5c45f08e7971601970ff8be",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27127,
+      "name": "Pistol Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 103,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 112,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2e7d03853e8c1e221b132120a8433445031f9b0b7d9030b732eda8ab98b9d882",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27135,
+      "name": "Psychology Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 107,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 162,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2484bf48624229074d323566e10cc05cd099f02ba14bcd96b5970d3286f7c66e",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27136,
+      "name": "Psychology Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 107,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 162,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "a8c736c621ae47f3989bc199238b25edf8982f305b73d80bfe6e6bc3562113ff",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27137,
+      "name": "PsyMod Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 108,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 129,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "de41ea4d072e39a3c44c92ef1a74b70a6caf60c63b9617d46126fa39dd2cad6e",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27140,
+      "name": "PsyMod Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 108,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 129,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "2ee1167a3080be02a0914f8419fb71a8b52672681b8f5f1254c6ec47113cd828",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27146,
+      "name": "Rifle Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 112,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 113,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0562f5d12eb3baed64eb3e12ff966c237a8fa036b2037d8981a1de60fcfb798f",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27149,
+      "name": "Rifle Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 112,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 113,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ca1f69d36a91da831d0d5fa0e365a183b1f373d3a02010577472645b28368743",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27150,
+      "name": "Riposte Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 114,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 143,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0874d11fc3cf658d5d75779d831f6cf49261890218bc39ac519dca2a5a5d6571",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27153,
+      "name": "Riposte Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 114,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 143,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "88578601756d33c67ad222b6d425cf74a709635bbd241c96838b5aeed446ed22",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27155,
+      "name": "Sense Imp Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 116,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 122,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e2a3408ded736568870c156110de07cbae976957b14bae482e07766eb99714f2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27158,
+      "name": "Sense Imp Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 116,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 122,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ebe43d87b5128c8ff041b797b1c4a0448ec9bc84f98585f571eb52635cc740ea",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27159,
+      "name": "Shotgun Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 118,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 115,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "665d15a3f599804bc8ced1cb7a47926e918106abaaaafb280ddc9b9ef14d1591",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27162,
+      "name": "Shotgun Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 118,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 115,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "d3007a8c636a89d9a385fcf754577ba4c4a23d8736ed388f73c3487cfcd02626",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27164,
+      "name": "Sneak Attack Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 120,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 146,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "80a5b1b8fe6b668a6370b9f1d29b539ea0a7bf504a39e4ccea9da21ae097ca44",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27167,
+      "name": "Sneak Attack Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 120,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 146,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "957b389051fe287c79d7d6e95e26c71985756559242fe2f4a84619160b2cfe5d",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27177,
+      "name": "Tutoring Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 126,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 141,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "f681c16e343960a273c314bad73f46218c61eee440025804b6cab347d8436964",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27178,
+      "name": "Tutoring Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 126,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 141,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "7e54e62d62276520960056afaff4c7cbf1d205c8dcf99e2b86ff51952095f60d",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27190,
+      "name": "Weapon Smithing Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 134,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 158,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "82dee0736c6c17fd3b6bbfb7aa96bf2d66a431f268de2883278b12045f9675e9",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27191,
+      "name": "Weapon Smithing Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 134,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 158,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "8096495dfdaf7035e0096b4fdf0bffe095defd6a2e0df72352907af43fd810d8",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27707,
+      "name": "Electrical Engineering Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 60,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 31
+        },
+        {
+          "statId": 122,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 126,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "49969019e6065fe34259ceac6f490993b47a8da39d7d6e9d3de6302237149571",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 259604,
+      "name": "Dimach Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 547,
+      "stackingOrder": 3,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 66
+        },
+        {
+          "statId": 122,
+          "amount": 66
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 144,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "48d805abc78fe5ca01b856bc1e708ad7abc205b55c97655b227171f03844d7d2",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 259606,
+      "name": "Dimach Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 547,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 35
+        },
+        {
+          "statId": 122,
+          "amount": 35
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 144,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "63a8282c2717fafb465d99caea336f82819284526e25db0ebad4a817037c0c04",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26441,
+      "name": "First Aid Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 70,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 128,
+          "amount": 61
+        },
+        {
+          "statId": 129,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 123,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e0e4edb141a416835bdb3188a0df0a866c72f1f88820a34f669effa4f20eb1eb",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 26442,
+      "name": "First Aid Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 70,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 128,
+          "amount": 31
+        },
+        {
+          "statId": 129,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 123,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "62152edbf3fc9f940562cbd8c520cf7d42ce4a3b4bea741d85ed8e3900f5abf1",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27175,
+      "name": "Treatment Expertise",
+      "ncu": 4,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 40,
+      "castMs": 2100,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 125,
+      "stackingOrder": 2,
+      "castRequirements": [
+        {
+          "statId": 128,
+          "amount": 61
+        },
+        {
+          "statId": 129,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 124,
+          "amount": 20
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "0ae0b4c6c4d9ffc27412f196f0203fb4147180fef138f538057fa21fbbb4f632",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 27176,
+      "name": "Treatment Proficiency",
+      "ncu": 2,
+      "duration": 1800.0,
+      "sourceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "nanoCost": 25,
+      "castMs": 2000,
+      "rechargeMs": 500,
+      "requiredProfession": 0,
+      "nanoLine": 125,
+      "stackingOrder": 1,
+      "castRequirements": [
+        {
+          "statId": 128,
+          "amount": 31
+        },
+        {
+          "statId": 129,
+          "amount": 31
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 124,
+          "amount": 10
+        }
+      ],
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "ba544de85f0e5596b6db8c085f82d3ff27aa893993acead941b479ac2d1aa313",
+      "unimplemented": [
+        "Other-target casting",
+        "Nano acquisition and learning",
+        "Composite replacement interactions"
+      ]
+    },
+    {
+      "id": 29091,
+      "name": "Body Boost",
+      "ncu": 1,
+      "duration": 14400.0,
+      "nanoCost": 11,
+      "castMs": 3000,
+      "rechargeMs": 4000,
+      "nanoLine": 151,
+      "stackingOrder": 1,
+      "requiredProfession": 1,
+      "castRequirements": [
+        {
+          "statId": 128,
+          "amount": 5
+        },
+        {
+          "statId": 130,
+          "amount": 5
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 1,
+          "amount": 20
+        }
+      ],
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "clientPayloadSha256": "e9b099f2b2a8e27438f1be10ed357e3543d82b941317d1928440e555ab034a67",
+      "unimplemented": [
+        "Other-target casting",
+        "Full Arete acquisition",
+        "Original-client current-HP transition fixtures"
+      ]
+    },
+    {
+      "id": 215264,
+      "name": "Composite Physical Special Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 66,
+      "additionalNanoLines": [
+        120,
+        41,
+        564,
+        547,
+        85
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 147,
+          "amount": 20
+        },
+        {
+          "statId": 146,
+          "amount": 20
+        },
+        {
+          "statId": 142,
+          "amount": 20
+        },
+        {
+          "statId": 144,
+          "amount": 20
+        },
+        {
+          "statId": 101,
+          "amount": 20
+        },
+        {
+          "statId": 100,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "8afe2c1a1b6097a495f16f2817e59df77de9bc42eda91fc053ad9cdf20e76fac",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 223348,
+      "name": "Composite Ranged Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 103,
+      "additionalNanoLines": [
+        27,
+        83,
+        118,
+        112,
+        37
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 112,
+          "amount": 20
+        },
+        {
+          "statId": 116,
+          "amount": 20
+        },
+        {
+          "statId": 114,
+          "amount": 20
+        },
+        {
+          "statId": 115,
+          "amount": 20
+        },
+        {
+          "statId": 113,
+          "amount": 20
+        },
+        {
+          "statId": 111,
+          "amount": 20
+        },
+        {
+          "statId": 133,
+          "amount": 20
+        },
+        {
+          "statId": 109,
+          "amount": 20
+        },
+        {
+          "statId": 110,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "27dc91c82fe27620b4fa0bc0fe3bb9a63ad5cd7189f9be3023afabbdd6b76cde",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 223360,
+      "name": "Composite Melee Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 16,
+      "additionalNanoLines": [
+        23,
+        21,
+        25,
+        101,
+        61
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 102,
+          "amount": 20
+        },
+        {
+          "statId": 107,
+          "amount": 20
+        },
+        {
+          "statId": 103,
+          "amount": 20
+        },
+        {
+          "statId": 105,
+          "amount": 20
+        },
+        {
+          "statId": 106,
+          "amount": 20
+        },
+        {
+          "statId": 104,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "3258452a9ba6f9d44bbec0a94dca0a10f8e1d7cdc91dd3f80c2f6f40a74c1502",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 223364,
+      "name": "Composite Ranged Special Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 18,
+      "additionalNanoLines": [
+        73,
+        44,
+        71,
+        39,
+        581
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 151,
+          "amount": 20
+        },
+        {
+          "statId": 167,
+          "amount": 20
+        },
+        {
+          "statId": 148,
+          "amount": 20
+        },
+        {
+          "statId": 150,
+          "amount": 20
+        },
+        {
+          "statId": 121,
+          "amount": 20
+        },
+        {
+          "statId": 134,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "017a96dad863a8673215876b2a44912281fa297a790502fcb0d59a9d0f94e345",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 223380,
+      "name": "Composite Nano Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 91,
+      "additionalNanoLines": [
+        35,
+        108,
+        116,
+        87,
+        89
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 61
+        },
+        {
+          "statId": 122,
+          "amount": 61
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 127,
+          "amount": 20
+        },
+        {
+          "statId": 128,
+          "amount": 20
+        },
+        {
+          "statId": 129,
+          "amount": 20
+        },
+        {
+          "statId": 122,
+          "amount": 20
+        },
+        {
+          "statId": 131,
+          "amount": 20
+        },
+        {
+          "statId": 130,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "531430fcb1e4f392d536794639f2391ffdf4a5c63b8495ba6c022110c90b1d72",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 287040,
+      "name": "Composite Tradeskill Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 93,
+      "additionalNanoLines": [
+        60,
+        68,
+        134,
+        100,
+        47
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 20
+        },
+        {
+          "statId": 122,
+          "amount": 20
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 125,
+          "amount": 20
+        },
+        {
+          "statId": 126,
+          "amount": 20
+        },
+        {
+          "statId": 157,
+          "amount": 20
+        },
+        {
+          "statId": 158,
+          "amount": 20
+        },
+        {
+          "statId": 159,
+          "amount": 20
+        },
+        {
+          "statId": 163,
+          "amount": 20
+        },
+        {
+          "statId": 160,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "4803b4fa3ded1c86a57c6f8ad316cbaee46f14d06d9d0603e3d812cd1102987d",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    },
+    {
+      "id": 287046,
+      "name": "Composite Utility Expertise",
+      "ncu": 4,
+      "duration": 28800.0,
+      "nanoCost": 1,
+      "castMs": 1000,
+      "rechargeMs": 1000,
+      "requiredProfession": 0,
+      "nanoLine": 51,
+      "additionalNanoLines": [
+        949,
+        43,
+        50,
+        70,
+        125
+      ],
+      "stackingOrder": 10,
+      "castRequirements": [
+        {
+          "statId": 129,
+          "amount": 4
+        },
+        {
+          "statId": 122,
+          "amount": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "statId": 164,
+          "amount": 20
+        },
+        {
+          "statId": 136,
+          "amount": 20
+        },
+        {
+          "statId": 165,
+          "amount": 20
+        },
+        {
+          "statId": 161,
+          "amount": 20
+        },
+        {
+          "statId": 124,
+          "amount": 20
+        },
+        {
+          "statId": 123,
+          "amount": 20
+        },
+        {
+          "statId": 162,
+          "amount": 20
+        }
+      ],
+      "sourceVersion": "18.8.50_EP1",
+      "clientEvidenceVersion": "18.8.50_EP1",
+      "sourceUrl": "https://update.anarchy-online.com/download/AO/18.8.50_EP1/install.exe",
+      "clientPayloadSha256": "f0b3c60034f77b00732ce5673eb0fe7ca499105fc0fd577b22a000c7d091b299",
+      "unimplemented": [
+        "Other-target casting",
+        "World acquisition",
+        "Original-client verification of cross-line replacement"
+      ]
+    }
+  ]
+}

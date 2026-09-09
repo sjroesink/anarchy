@@ -1,0 +1,107 @@
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
+using Microsoft.AspNetCore.Identity;
+using Reborn;
+
+public sealed record Credentials(string? username,string? password);
+public sealed record LoginResult(string token,AoTrainingState character);
+public sealed record TrainingResult(int status,string reason,AoTrainingState? character);
+public sealed class CharacterStore
+{
+    public sealed class Account
+    {
+        public string Name {get;set;}="";
+        public string PasswordHash {get;set;}="";
+        public AoTrainingState Character {get;set;}=new();
+        public List<Session> Sessions {get;set;}=new();
+    }
+    public sealed record Session(string Hash,DateTimeOffset Expires);
+    readonly string folder;
+    readonly AoRules rules;
+    readonly TimeProvider clock;
+    readonly SemaphoreSlim gate=new(1,1);
+    readonly Dictionary<string,string> owners=new(StringComparer.Ordinal);
+    readonly PasswordHasher<Account> hasher=new();
+    readonly string dummyHash;
+    readonly JsonSerializerOptions json=new(){IncludeFields=true,PropertyNamingPolicy=JsonNamingPolicy.CamelCase};
+    public CharacterStore(string root,AoRules rules,TimeProvider? clock=null)
+    {
+        folder=Path.Combine(Path.GetFullPath(root),"accounts");Directory.CreateDirectory(folder);
+        this.rules=rules;this.clock=clock??TimeProvider.System;
+        dummyHash=hasher.HashPassword(new Account(),Convert.ToHexString(RandomNumberGenerator.GetBytes(32)));
+        foreach(string file in Directory.EnumerateFiles(folder,"*.json"))
+        {
+            var account=JsonSerializer.Deserialize<Account>(File.ReadAllText(file),json)??throw new InvalidDataException("Invalid account file");
+            foreach(var session in account.Sessions.Where(s=>s.Expires>this.clock.GetUtcNow()))owners.Add(session.Hash,account.Name);
+        }
+    }
+    static string Hash(string value)=>Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(value)));
+    static string? Name(string? value)=>value is {Length:>=3 and <=32} && value.All(c=>char.IsAsciiLetterOrDigit(c)||c=='_')?value.ToLowerInvariant():null;
+    string FileName(string name)=>Path.Combine(folder,Hash(name)+".json");
+    Account? Read(string name)=>File.Exists(FileName(name))?JsonSerializer.Deserialize<Account>(File.ReadAllText(FileName(name)),json):null;
+    async Task Save(Account account)
+    {
+        string path=FileName(account.Name),temp=path+"."+Guid.NewGuid().ToString("N")+".tmp";
+        try {await File.WriteAllTextAsync(temp,JsonSerializer.Serialize(account,json));File.Move(temp,path,true);}
+        finally {if(File.Exists(temp))File.Delete(temp);}
+    }
+    static string? TokenHash(string? token)=>token is {Length:64}&&token.All(char.IsAsciiHexDigit)?Hash(token):null;
+    Account? Resolve(string? token)
+    {
+        string? hash=TokenHash(token);
+        if(hash==null||!owners.TryGetValue(hash,out string? name))return null;
+        var account=Read(name);
+        return account!=null&&account.Sessions.Any(s=>s.Hash==hash&&s.Expires>clock.GetUtcNow())?account:null;
+    }
+    public async Task<int> Register(Credentials credentials)
+    {
+        string? name=Name(credentials.username);
+        if(name==null||credentials.password is not {Length:>=12 and <=128})return 400;
+        await gate.WaitAsync();try {
+            if(Read(name)!=null)return 409;
+            var account=new Account{Name=name};account.PasswordHash=hasher.HashPassword(account,credentials.password);
+            await Save(account);return 201;
+        }finally {gate.Release();}
+    }
+    public async Task<LoginResult?> Login(Credentials credentials)
+    {
+        if(credentials.password is not {Length:>=1 and <=128})return null;
+        await gate.WaitAsync();try {
+            string? name=Name(credentials.username);var account=name==null?null:Read(name);
+            var verification=hasher.VerifyHashedPassword(account??new Account(),account?.PasswordHash??dummyHash,credentials.password);
+            if(account==null||verification==PasswordVerificationResult.Failed)return null;
+            if(verification==PasswordVerificationResult.SuccessRehashNeeded)account.PasswordHash=hasher.HashPassword(account,credentials.password);
+            var prior=account.Sessions.ToArray();
+            account.Sessions=account.Sessions.Where(s=>s.Expires>clock.GetUtcNow()).TakeLast(7).ToList();
+            string token=Convert.ToHexString(RandomNumberGenerator.GetBytes(32));
+            account.Sessions.Add(new Session(Hash(token),clock.GetUtcNow().AddMinutes(30)));
+            await Save(account);
+            foreach(var session in prior)owners.Remove(session.Hash);
+            foreach(var session in account.Sessions)owners[session.Hash]=account.Name;
+            return new LoginResult(token,account.Character);
+        }finally {gate.Release();}
+    }
+    public async Task<AoTrainingState?> Get(string? token)
+    {
+        await gate.WaitAsync();try {return Resolve(token)?.Character;}finally {gate.Release();}
+    }
+    public async Task<bool> Logout(string? token)
+    {
+        await gate.WaitAsync();try {
+            var account=Resolve(token);if(account==null)return false;
+            string hash=TokenHash(token)!;account.Sessions.RemoveAll(s=>s.Hash==hash);
+            await Save(account);owners.Remove(hash);return true;
+        }finally {gate.Release();}
+    }
+    public async Task<TrainingResult> Train(string? token,TrainRequest request)
+    {
+        await gate.WaitAsync();try {
+            var account=Resolve(token);if(account==null)return new(401,"Authentication required.",null);
+            var state=account.Character;
+            if(request.revision!=state.revision)return new(409,"Character changed; refresh before retrying.",state);
+            if(!AoTrainingRules.Train(rules,state,request.statId,out string reason))return new(400,reason,state);
+            state.revision++;await Save(account);return new(200,reason,state);
+        }finally {gate.Release();}
+    }
+}

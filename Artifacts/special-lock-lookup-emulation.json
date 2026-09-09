@@ -1,0 +1,877 @@
+{
+  "scope": "Emulate original special-lock list behavior with synthetic Burst inputs; tick frequency remains unverified.",
+  "sourceVersion": "18.8.50_EP1",
+  "sourceSha256": "8b96f9b319ac43d14b721767f57b07d0e38a6a793032e7b1096dc40559959320",
+  "unicornVersion": "2.1.4",
+  "passed": 52,
+  "lookupComparisons": 16,
+  "tickComparisons": 12,
+  "applicationComparisons": 24,
+  "results": [
+    {
+      "entries": [],
+      "skill": 148,
+      "membership": 0,
+      "rawRemaining": 0
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "skill": 148,
+      "membership": 0,
+      "rawRemaining": 0
+    },
+    {
+      "entries": [
+        [
+          148,
+          40
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": 40
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          40
+        ],
+        [
+          150,
+          80
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": 40
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          150,
+          80
+        ],
+        [
+          148,
+          1
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": 1
+    },
+    {
+      "entries": [
+        [
+          148,
+          0
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": 0
+    },
+    {
+      "entries": [
+        [
+          148,
+          -1
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": -1
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ],
+        [
+          148,
+          40
+        ]
+      ],
+      "skill": 148,
+      "membership": 1,
+      "rawRemaining": 9
+    }
+  ],
+  "tickResults": [
+    {
+      "entries": [],
+      "tickCalls": 1,
+      "result": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          2
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          1
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          148,
+          1
+        ]
+      ],
+      "tickCalls": 1,
+      "result": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          0
+        ]
+      ],
+      "tickCalls": 1,
+      "result": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          -1
+        ]
+      ],
+      "tickCalls": 1,
+      "result": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          1
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          150,
+          5
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          125,
+          150,
+          458,
+          4
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          5
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          150,
+          5
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          4
+        ],
+        [
+          125,
+          150,
+          458,
+          4
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          5
+        ],
+        [
+          148,
+          1
+        ],
+        [
+          150,
+          1
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          4
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          148,
+          1
+        ],
+        [
+          148,
+          3
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          124,
+          148,
+          457,
+          2
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          1
+        ],
+        [
+          148,
+          2
+        ],
+        [
+          150,
+          3
+        ]
+      ],
+      "tickCalls": 3,
+      "result": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          2
+        ]
+      ],
+      "tickCalls": 0,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          2
+        ]
+      ]
+    },
+    {
+      "entries": [
+        [
+          148,
+          2147483647
+        ]
+      ],
+      "tickCalls": 1,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          2147483646
+        ]
+      ]
+    }
+  ],
+  "applicationResults": [
+    {
+      "entries": [],
+      "durationInput": 0,
+      "extend": false,
+      "result": [
+        [
+          0,
+          148,
+          0,
+          0
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [],
+      "durationInput": 0,
+      "extend": true,
+      "result": [
+        [
+          0,
+          148,
+          0,
+          0
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [],
+      "durationInput": 1,
+      "extend": false,
+      "result": [
+        [
+          0,
+          148,
+          1,
+          1
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [],
+      "durationInput": 1,
+      "extend": true,
+      "result": [
+        [
+          0,
+          148,
+          1,
+          1
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [],
+      "durationInput": 40,
+      "extend": false,
+      "result": [
+        [
+          0,
+          148,
+          40,
+          40
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [],
+      "durationInput": 40,
+      "extend": true,
+      "result": [
+        [
+          0,
+          148,
+          40,
+          40
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 0,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          0,
+          0
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 0,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          0,
+          0
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 1,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          1,
+          1
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 1,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          1,
+          1
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 40,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          40,
+          40
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ]
+      ],
+      "durationInput": 40,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          0,
+          148,
+          40,
+          40
+        ]
+      ],
+      "notifications": [
+        148
+      ]
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 0,
+      "extend": false,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          9
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 0,
+      "extend": true,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          9
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 1,
+      "extend": false,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          9
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 1,
+      "extend": true,
+      "result": [
+        [
+          123,
+          148,
+          457,
+          10
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 40,
+      "extend": false,
+      "result": [
+        [
+          123,
+          148,
+          456,
+          9
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          148,
+          9
+        ]
+      ],
+      "durationInput": 40,
+      "extend": true,
+      "result": [
+        [
+          123,
+          148,
+          496,
+          49
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 0,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          457,
+          5
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 0,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          457,
+          5
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 1,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          457,
+          5
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 1,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          458,
+          6
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 40,
+      "extend": false,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          457,
+          5
+        ]
+      ],
+      "notifications": []
+    },
+    {
+      "entries": [
+        [
+          147,
+          9
+        ],
+        [
+          148,
+          5
+        ]
+      ],
+      "durationInput": 40,
+      "extend": true,
+      "result": [
+        [
+          123,
+          147,
+          456,
+          9
+        ],
+        [
+          124,
+          148,
+          497,
+          45
+        ]
+      ],
+      "notifications": []
+    }
+  ],
+  "limits": [
+    "Synthetic list fixtures, not captured server messages",
+    "Entry presence is separate from its remaining value",
+    "Visual notification calls substituted; original duration adjustment/list insertion/extension instructions execute",
+    "Upstream duration source, tick cadence and link to Burst arithmetic remain unverified"
+  ]
+}

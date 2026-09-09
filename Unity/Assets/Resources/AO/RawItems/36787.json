@@ -1,0 +1,204 @@
+{
+  "aoid": 36787,
+  "sourceUrl": "https://www.aoindex.com/item/36787",
+  "sourceVersion": "18.08.62",
+  "capturedUtc": "2026-09-08T09:03:10.067717+00:00",
+  "htmlSha256": "b13dcceb7b7f26f56d0d5757e14fc7f699427eca56da7df96182252ee91c2b30",
+  "scope": "Published raw table evidence; not complete executable semantics.",
+  "tables": [
+    {
+      "columns": [
+        "Key",
+        "Value"
+      ],
+      "rows": [
+        [
+          "lowId",
+          "36784"
+        ],
+        [
+          "highId",
+          "36787"
+        ],
+        [
+          "lowQl",
+          "160"
+        ],
+        [
+          "highQl",
+          "200"
+        ],
+        [
+          "name",
+          "Belt Component Platform 6K-X"
+        ],
+        [
+          "iconId",
+          "119143"
+        ],
+        [
+          "description",
+          "Equip this Component Platform in your belt slot, and install upgrades to your NCU-unit. This can contain 6 upgrades! This is the hottest on the line right now, costs a bucket, and is hard to use!"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Stat ID",
+        "Value",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "2147483651",
+          "Flags"
+        ],
+        [
+          "2",
+          "800",
+          "Volume Mass"
+        ],
+        [
+          "12",
+          "9013",
+          "Mesh"
+        ],
+        [
+          "30",
+          "5",
+          "Can"
+        ],
+        [
+          "45",
+          "6",
+          "Belt Slots"
+        ],
+        [
+          "54",
+          "200",
+          "Level"
+        ],
+        [
+          "74",
+          "100000",
+          "Price"
+        ],
+        [
+          "76",
+          "1",
+          "Item Class"
+        ],
+        [
+          "79",
+          "119143",
+          "Icon"
+        ],
+        [
+          "88",
+          "7",
+          "Default Pos"
+        ],
+        [
+          "211",
+          "1000",
+          "Equip Delay"
+        ],
+        [
+          "298",
+          "128",
+          "Placement"
+        ],
+        [
+          "688",
+          "2",
+          "Stat 688"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Type",
+        "Sort",
+        "Stat ID",
+        "Op ID",
+        "Value",
+        "Stat Name",
+        "Op",
+        "Label"
+      ],
+      "rows": [
+        [
+          "equip",
+          "0",
+          "161",
+          "2",
+          "400",
+          "Computer Literacy",
+          ">=",
+          "401"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Event ID",
+        "Fn",
+        "Target",
+        "Stat ID",
+        "Amount",
+        "Tick Count",
+        "Tick Delay",
+        "Parameters",
+        "Event",
+        "Effect",
+        "Target Label",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "14",
+          "53045",
+          "2",
+          "45",
+          "6",
+          "1",
+          "0",
+          "45,6",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Belt Slots"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Key Type",
+        "Skill ID",
+        "Amount",
+        "Skill Name"
+      ],
+      "rows": [
+        [
+          "No rows."
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Attribute ID",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "45",
+          "6"
+        ]
+      ]
+    }
+  ]
+}

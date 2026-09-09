@@ -1,0 +1,43 @@
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Threading.RateLimiting;
+using Reborn;
+
+var builder=WebApplication.CreateBuilder(args);
+int port=int.Parse(Environment.GetEnvironmentVariable("AO_SERVER_PORT")??"5077");
+builder.WebHost.UseUrls($"http://127.0.0.1:{port}");
+builder.WebHost.ConfigureKestrel(o=>o.Limits.MaxRequestBodySize=4096);
+builder.Services.ConfigureHttpJsonOptions(o=>{o.SerializerOptions.IncludeFields=true;o.SerializerOptions.UnmappedMemberHandling=JsonUnmappedMemberHandling.Disallow;});
+builder.Services.AddRateLimiter(o=>{
+    o.RejectionStatusCode=429;
+    o.GlobalLimiter=PartitionedRateLimiter.Create<HttpContext,string>(_=>RateLimitPartition.GetFixedWindowLimiter("development-server",_=>new FixedWindowRateLimiterOptions{PermitLimit=100,Window=TimeSpan.FromSeconds(1),QueueLimit=0}));
+    o.AddPolicy("authentication",ctx=>RateLimitPartition.GetFixedWindowLimiter(ctx.Connection.RemoteIpAddress?.ToString()??"unknown",_=>new FixedWindowRateLimiterOptions{PermitLimit=20,Window=TimeSpan.FromMinutes(1),QueueLimit=0}));
+});
+var app=builder.Build();app.UseRateLimiter();
+app.Use(async(ctx,next)=>{ctx.Response.Headers.CacheControl="no-store";await next();});
+var rules=JsonSerializer.Deserialize<AoRules>(File.ReadAllText(Path.Combine(AppContext.BaseDirectory,"Data/rules.json")),new JsonSerializerOptions{IncludeFields=true})!;
+var store=new CharacterStore(Environment.GetEnvironmentVariable("AO_SERVER_DATA")??Path.Combine(AppContext.BaseDirectory,"characters"),rules);
+string? Token(HttpContext ctx)
+{
+    string header=ctx.Request.Headers.Authorization.ToString();
+    return header.StartsWith("Bearer ",StringComparison.Ordinal)?header[7..]:null;
+}
+app.MapGet("/health",()=>Results.Ok(new{status="ok",scope="development character training"}));
+app.MapPost("/accounts",async (Credentials credentials)=>{
+    int status=await store.Register(credentials);
+    return Results.Json(new{reason=status==201?"Account created.":"Account could not be created. Use 3-32 letters/digits/underscores and a 12-128 character password."},statusCode:status);
+}).RequireRateLimiting("authentication");
+app.MapPost("/sessions",async (Credentials credentials)=>{
+    var result=await store.Login(credentials);
+    return result==null?Results.Unauthorized():Results.Ok(result);
+}).RequireRateLimiting("authentication");
+app.MapPost("/sessions/logout",async(HttpContext ctx)=>await store.Logout(Token(ctx))?Results.NoContent():Results.Unauthorized());
+app.MapGet("/character",async(HttpContext ctx)=>{
+    var result=await store.Get(Token(ctx));return result==null?Results.Unauthorized():Results.Ok(result);
+});
+app.MapPost("/character/train",async(HttpContext ctx,TrainRequest request)=>{
+    var result=await store.Train(Token(ctx),request);
+    return Results.Json(new{result.reason,result.character},statusCode:result.status);
+});
+app.Run();
+public sealed record TrainRequest(int statId,long revision);

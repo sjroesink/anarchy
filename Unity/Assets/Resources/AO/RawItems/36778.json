@@ -1,0 +1,199 @@
+{
+  "aoid": 36778,
+  "sourceUrl": "https://www.aoindex.com/item/36778",
+  "sourceVersion": "18.08.62",
+  "capturedUtc": "2026-09-08T09:03:10.065492+00:00",
+  "htmlSha256": "009013f325c1af20abb99242c11fe57c573cd6ca2d1e95b2f445970f9fb557ba",
+  "scope": "Published raw table evidence; not complete executable semantics.",
+  "tables": [
+    {
+      "columns": [
+        "Key",
+        "Value"
+      ],
+      "rows": [
+        [
+          "lowId",
+          "36778"
+        ],
+        [
+          "highId",
+          "36786"
+        ],
+        [
+          "lowQl",
+          "20"
+        ],
+        [
+          "highQl",
+          "39"
+        ],
+        [
+          "name",
+          "4 - 7 NCU Memory"
+        ],
+        [
+          "iconId",
+          "119135"
+        ],
+        [
+          "description",
+          "Install this NCU Memory inside your Component Platform. NOTE: You need to have a NCU Deck Slot available to equip it... (The number of usable slots is decided by your NCU component belt...)"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Stat ID",
+        "Value",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "2147483651",
+          "Flags"
+        ],
+        [
+          "2",
+          "50",
+          "Volume Mass"
+        ],
+        [
+          "12",
+          "9013",
+          "Mesh"
+        ],
+        [
+          "30",
+          "5",
+          "Can"
+        ],
+        [
+          "54",
+          "20",
+          "Level"
+        ],
+        [
+          "74",
+          "800",
+          "Price"
+        ],
+        [
+          "76",
+          "1",
+          "Item Class"
+        ],
+        [
+          "79",
+          "119135",
+          "Icon"
+        ],
+        [
+          "88",
+          "9",
+          "Default Pos"
+        ],
+        [
+          "211",
+          "100",
+          "Equip Delay"
+        ],
+        [
+          "298",
+          "32256",
+          "Placement"
+        ],
+        [
+          "688",
+          "2",
+          "Stat 688"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Type",
+        "Sort",
+        "Stat ID",
+        "Op ID",
+        "Value",
+        "Stat Name",
+        "Op",
+        "Label"
+      ],
+      "rows": [
+        [
+          "equip",
+          "0",
+          "161",
+          "2",
+          "34",
+          "Computer Literacy",
+          ">=",
+          "35"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Event ID",
+        "Fn",
+        "Target",
+        "Stat ID",
+        "Amount",
+        "Tick Count",
+        "Tick Delay",
+        "Parameters",
+        "Event",
+        "Effect",
+        "Target Label",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "14",
+          "53045",
+          "2",
+          "181",
+          "4",
+          "1",
+          "0",
+          "181,4",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Max NCU"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Key Type",
+        "Skill ID",
+        "Amount",
+        "Skill Name"
+      ],
+      "rows": [
+        [
+          "No rows."
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Attribute ID",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "181",
+          "4"
+        ]
+      ]
+    }
+  ]
+}

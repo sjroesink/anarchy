@@ -1,0 +1,992 @@
+{
+  "sourceReportSha256": "d2218e04116d307ac91e6c8cf11bb3ab7a6f323fcb08d1f9f201ae60ece8c0dd",
+  "fixtures": [
+    {
+      "operation": "read",
+      "initial": [],
+      "skill": 148,
+      "membership": false,
+      "remaining": 0
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "membership": false,
+      "remaining": 0
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 40
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": 40
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 40
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 80
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": 40
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 150,
+          "duration": 457,
+          "remaining": 80
+        },
+        {
+          "opaque": 125,
+          "skill": 148,
+          "duration": 458,
+          "remaining": 1
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": 1
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 0
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": 0
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": -1
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": -1
+    },
+    {
+      "operation": "read",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 40
+        }
+      ],
+      "skill": 148,
+      "membership": true,
+      "remaining": 9
+    },
+    {
+      "operation": "tick",
+      "initial": [],
+      "ticks": 1,
+      "expected": []
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 2
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 1
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 1
+        }
+      ],
+      "ticks": 1,
+      "expected": []
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 0
+        }
+      ],
+      "ticks": 1,
+      "expected": []
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": -1
+        }
+      ],
+      "ticks": 1,
+      "expected": []
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 1
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 1
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 5
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 4
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 5
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 1
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 5
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 4
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 4
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 5
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 1
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 1
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 4
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 1
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 3
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 2
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 1
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 2
+        },
+        {
+          "opaque": 125,
+          "skill": 150,
+          "duration": 458,
+          "remaining": 3
+        }
+      ],
+      "ticks": 3,
+      "expected": []
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 2
+        }
+      ],
+      "ticks": 0,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 2
+        }
+      ]
+    },
+    {
+      "operation": "tick",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 2147483647
+        }
+      ],
+      "ticks": 1,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 2147483646
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [],
+      "skill": 148,
+      "duration": 0,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 0,
+          "remaining": 0
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [],
+      "skill": 148,
+      "duration": 0,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 0,
+          "remaining": 0
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [],
+      "skill": 148,
+      "duration": 1,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 1,
+          "remaining": 1
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [],
+      "skill": 148,
+      "duration": 1,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 1,
+          "remaining": 1
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [],
+      "skill": 148,
+      "duration": 40,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 40,
+          "remaining": 40
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [],
+      "skill": 148,
+      "duration": 40,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 40,
+          "remaining": 40
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 0,
+          "remaining": 0
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 0,
+          "remaining": 0
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 1,
+          "remaining": 1
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 1,
+          "remaining": 1
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 40,
+          "remaining": 40
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": true,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 0,
+          "skill": 148,
+          "duration": 40,
+          "remaining": 40
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 10
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 456,
+          "remaining": 9
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 148,
+          "duration": 496,
+          "remaining": 49
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 0,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 1,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 458,
+          "remaining": 6
+        }
+      ]
+    },
+    {
+      "operation": "insert",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ]
+    },
+    {
+      "operation": "extend",
+      "initial": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 457,
+          "remaining": 5
+        }
+      ],
+      "skill": 148,
+      "duration": 40,
+      "inserted": false,
+      "expected": [
+        {
+          "opaque": 123,
+          "skill": 147,
+          "duration": 456,
+          "remaining": 9
+        },
+        {
+          "opaque": 124,
+          "skill": 148,
+          "duration": 497,
+          "remaining": 45
+        }
+      ]
+    }
+  ]
+}

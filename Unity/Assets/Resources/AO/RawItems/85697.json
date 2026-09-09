@@ -1,0 +1,362 @@
+{
+  "aoid": 85697,
+  "sourceUrl": "https://www.aoindex.com/item/85697",
+  "sourceVersion": "18.08.62",
+  "capturedUtc": "2026-09-08T09:18:18.252792+00:00",
+  "htmlSha256": "d09c052ce34b8f0af2596f94b0458a8e59c64c2358df2fbd4e0126ae2ae7bd1e",
+  "scope": "Published raw table evidence; not complete executable semantics.",
+  "tables": [
+    {
+      "columns": [
+        "Key",
+        "Value"
+      ],
+      "rows": [
+        [
+          "lowId",
+          "85697"
+        ],
+        [
+          "highId",
+          "85696"
+        ],
+        [
+          "lowQl",
+          "1"
+        ],
+        [
+          "highQl",
+          "199"
+        ],
+        [
+          "name",
+          "Battered Leather Body Armor"
+        ],
+        [
+          "iconId",
+          "13244"
+        ],
+        [
+          "description",
+          "The Leather Armor is based on an old principle; if a hide could protect the original owner, it could provide you with some shielding too. Of course, it did not provide enough protection to keep the original owner alive... So the hide goes through a special process, strengthening the leather to a point where it is barely weaker than steel, while losing almost none of the original flexibility. A heating system is added to the armor, to help keep the body warm."
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Stat ID",
+        "Value",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "3221225475",
+          "Flags"
+        ],
+        [
+          "1",
+          "2500",
+          "Life"
+        ],
+        [
+          "2",
+          "1800",
+          "Volume Mass"
+        ],
+        [
+          "12",
+          "9013",
+          "Mesh"
+        ],
+        [
+          "30",
+          "5",
+          "Can"
+        ],
+        [
+          "54",
+          "1",
+          "Level"
+        ],
+        [
+          "74",
+          "1000",
+          "Price"
+        ],
+        [
+          "76",
+          "2",
+          "Item Class"
+        ],
+        [
+          "79",
+          "13244",
+          "Icon"
+        ],
+        [
+          "88",
+          "5",
+          "Default Pos"
+        ],
+        [
+          "211",
+          "10",
+          "Equip Delay"
+        ],
+        [
+          "298",
+          "32",
+          "Placement"
+        ],
+        [
+          "352",
+          "50",
+          "SIS Cap"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Type",
+        "Sort",
+        "Stat ID",
+        "Op ID",
+        "Value",
+        "Stat Name",
+        "Op",
+        "Label"
+      ],
+      "rows": [
+        [
+          "equip",
+          "0",
+          "20",
+          "2",
+          "7",
+          "Sense",
+          ">=",
+          "8"
+        ],
+        [
+          "equip",
+          "1",
+          "17",
+          "2",
+          "7",
+          "Agility",
+          ">=",
+          "8"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Event ID",
+        "Fn",
+        "Target",
+        "Stat ID",
+        "Amount",
+        "Tick Count",
+        "Tick Delay",
+        "Parameters",
+        "Event",
+        "Effect",
+        "Target Label",
+        "Stat Name"
+      ],
+      "rows": [
+        [
+          "0",
+          "14",
+          "53045",
+          "2",
+          "91",
+          "5",
+          "1",
+          "0",
+          "91,5",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Melee AC"
+        ],
+        [
+          "1",
+          "14",
+          "53045",
+          "2",
+          "95",
+          "5",
+          "1",
+          "0",
+          "95,5",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Cold AC"
+        ],
+        [
+          "2",
+          "14",
+          "53039",
+          "2",
+          "null",
+          "null",
+          "1",
+          "0",
+          "8732,1",
+          "On Wear",
+          "Function 53039",
+          "Target",
+          "null"
+        ],
+        [
+          "3",
+          "14",
+          "53045",
+          "2",
+          "90",
+          "5",
+          "1",
+          "0",
+          "90,5",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Projectile AC"
+        ],
+        [
+          "4",
+          "14",
+          "53045",
+          "2",
+          "92",
+          "1",
+          "1",
+          "0",
+          "92,1",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Energy AC"
+        ],
+        [
+          "5",
+          "14",
+          "53045",
+          "2",
+          "97",
+          "1",
+          "1",
+          "0",
+          "97,1",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Fire AC"
+        ],
+        [
+          "6",
+          "14",
+          "53045",
+          "2",
+          "93",
+          "1",
+          "1",
+          "0",
+          "93,1",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Chemical AC"
+        ],
+        [
+          "7",
+          "14",
+          "53045",
+          "2",
+          "94",
+          "5",
+          "1",
+          "0",
+          "94,5",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Radiation AC"
+        ],
+        [
+          "8",
+          "14",
+          "53045",
+          "2",
+          "96",
+          "1",
+          "1",
+          "0",
+          "96,1",
+          "On Wear",
+          "Modify",
+          "Target",
+          "Poison AC"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Sort",
+        "Key Type",
+        "Skill ID",
+        "Amount",
+        "Skill Name"
+      ],
+      "rows": [
+        [
+          "No rows."
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "Attribute ID",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "90",
+          "5"
+        ],
+        [
+          "91",
+          "5"
+        ],
+        [
+          "92",
+          "1"
+        ],
+        [
+          "93",
+          "1"
+        ],
+        [
+          "94",
+          "5"
+        ],
+        [
+          "95",
+          "5"
+        ],
+        [
+          "96",
+          "1"
+        ],
+        [
+          "97",
+          "1"
+        ]
+      ]
+    }
+  ]
+}
