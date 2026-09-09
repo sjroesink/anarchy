@@ -1,0 +1,7 @@
+# Preserve hashed evidence byte-for-byte on every checkout.
+Artifacts/special-lock-lookup-emulation.json -text
+Artifacts/unity-skill-lock-fixtures.json -text
+
+*.blend binary
+*.fbx binary
+*.png binary
