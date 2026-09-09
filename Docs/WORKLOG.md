@@ -1,5 +1,9 @@
 # Active goal handoff
 
+## 2026-09-09 — Public GitHub repository and Windows prerelease
+
+Published to https://github.com/sjroesink/anarchy after explicit public-visibility selection. Initial source, Blender assets, Unity project and development server are on main. Clean-checkout Unity build passes 259 generation/import checks; server builds with zero warnings/errors. Hashed evidence fixtures are stored without line-ending conversion and Git blob bytes match the original validated source. Release v0.1.0-preview.1 contains a 67.9 MB Windows ZIP and SHA256SUMS.txt. Archive integrity passes and GitHub's uploaded asset SHA-256 matches the local package. Original research/client extraction, caches, logs and character saves are excluded. Publication request completed; full AO fidelity goal remains incomplete.
+
 ## 2026-09-09 — First-person view and publication preparation
 
 Previous turn delivered right-click terminal use. Added F8 first/third-person switching against the original manual, an authored eye anchor and camera-only local body suppression near obstructions. Original Ctrl camera modes/preferences remain incomplete. Windows preview rebuilt; CameraViews runtime report passes 256 checks, with 29 nonblank captures. User then requested publishing to sjroesink/anarchy (duplicated URL normalized). Initialized Git, excluded local research/cache/logs/saves/artifact outputs, retained the two fixtures required by the normal build, and added clone/build/release instructions. Full fidelity goal remains active.
